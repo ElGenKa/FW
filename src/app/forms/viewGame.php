@@ -289,6 +289,14 @@ class viewGame extends AbstractForm
         $this->container->y = ($this->height / 2) - ($this->container->height / 2);
     }
 
+    /**
+     * @event close 
+     */
+    function doClose(UXWindowEvent $e = null)
+    {    
+        app()->shutdown();
+    }
+
 
     function set_color($x, $y, $player)
     {

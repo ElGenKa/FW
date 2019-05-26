@@ -1,6 +1,7 @@
 <?php
 namespace app\forms;
 
+use facade\Json;
 use std, gui, framework, app;
 
 
@@ -20,7 +21,7 @@ class MainForm extends AbstractForm
      */
     function doButtonAction(UXEvent $e = null)
     {    
-        open('http://185.244.42.28/');
+        
     }
 
     /**
@@ -36,8 +37,28 @@ class MainForm extends AbstractForm
      */
     function doConstruct(UXEvent $e = null)
     {    
-        $this->vbox->x = ($this->width / 2) - ($this->width / 2);
-        $this->vbox->y = ($this->height / 2) - ($this->height / 2);
+        Timer::setTimeout(function(){
+            $this->vbox->x = ($this->form('MainForm')->width / 2) - ($this->vbox->width / 2);
+            $this->vbox->y = ($this->form('MainForm')->height / 2) - ($this->vbox->height / 2);
+            Timer::setInterval(function(){
+                $thread = new Thread(function(){
+                    $get = file_get_contents('http://185.244.42.28/gameApi/api.php?method=ping');
+                    $get = Json::decode($get);
+                    uiLater(function() use ($get){
+                        $this->label3->text = $get['response']['msg'];
+                    });
+                });
+                $thread->start();
+            },4000);
+        },300);
+    }
+
+    /**
+     * @event close 
+     */
+    function doClose(UXWindowEvent $e = null)
+    {    
+        app()->shutdown();
     }
 
 }

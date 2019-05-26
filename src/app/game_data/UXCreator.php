@@ -5,7 +5,7 @@ use gui;
 
 class UXCreator 
 {
-    public function label($text,$classes, $AS = true){
+    public function label($text,$classes = 'label', $AS = true){
         $label = new UXLabel();
         $label->autosize = $AS;
         $label->text = $text;

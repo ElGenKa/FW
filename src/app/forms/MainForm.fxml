@@ -66,5 +66,11 @@
       </children>
     </VBox>
     <Data cursor="DEFAULT" enabled="1" id="data-vbox" visible="1"/>
+    <LabelEx alignment="CENTER_LEFT" autoSize="true" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label3" layoutX="8" layoutY="8" prefHeight="13.634765625" prefWidth="30.9375" styleClass="label label_green " text="Текст" textAlignment="LEFT" underline="false" wrapText="false">
+      <font>
+        <Font name="Georgia" size="12"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-label3" visible="1"/>
   </children>
 </AnchorPane>

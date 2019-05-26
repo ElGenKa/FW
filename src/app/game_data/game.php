@@ -74,7 +74,7 @@ class game
         $target = $e->sender;
         
         $x_panel = $form->height / 2 - 640 / 2; $y_panel = $form->width / 2 - 640 / 2;
-        $panel = $this->uxcreator->panel($x,$y);
+        $panel = $this->uxcreator->panel($x_panel,$y_panel);
         $panel->data('target', $target);
         $dragging->apply($panel);
         

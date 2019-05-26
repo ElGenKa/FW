@@ -56,9 +56,7 @@ class MainModule extends AbstractModule
     {    
         $this->httpConnector = new httpConnector($this->httpClient);
         //$resp = $this->httpClient->get();
-        $this->httpClient->postAsync('http://185.244.42.28/auth.php',[], function($e){
-            var_dump($e);
-        });
+        
         //$this->httpClient->execute()
         //var_dump($resp->
     }
