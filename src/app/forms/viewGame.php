@@ -28,15 +28,15 @@ class viewGame extends AbstractForm
     
         $sector_names = file('db/sectors.txt');
     
-        $this->ux['box_bg'] = new UXImage('UI/box_bg.png');
-        $this->ux['player_sector'][0] = new UXImage('UI/0.png');
-        $this->ux['player_sector'][1] = new UXImage('UI/1.png');
-        $this->ux['player_sector'][2] = new UXImage('UI/2.png');
-        $this->ux['player_sector_b'] = new UXImage('UI/sector_b.png');
-        $this->ux['player_sector_add'] = new UXImage('UI/add.png');
-        $this->ux['player_sector_build'] = new UXImage('UI/build.png');
-        $this->ux['player_sector_build_wait'] = new UXImage('UI/wait_build.png');
-        $this->ux['line_process_color'] = new UXImage('UI/process_build.png');
+        $this->ux['box_bg'] = new UXImage('UI/map/box_bg.png');
+        $this->ux['player_sector'][0] = new UXImage('UI/icons/0.png');
+        $this->ux['player_sector'][1] = new UXImage('UI/icons/1.png');
+        $this->ux['player_sector'][2] = new UXImage('UI/icons/2.png');
+        $this->ux['player_sector_b'] = new UXImage('UI/icons/sector_b.png');
+        $this->ux['player_sector_add'] = new UXImage('UI/icons/add.png');
+        $this->ux['player_sector_build'] = new UXImage('UI/icons/build.png');
+        $this->ux['player_sector_build_wait'] = new UXImage('UI/icons/wait_build.png');
+        $this->ux['line_process_color'] = new UXImage('UI/icons/process_build.png');
         
             $player = $this->player;
             $this->listViewAlt->items->clear();

@@ -72,37 +72,38 @@ class game
     {
         $dragging = new DraggingBehaviour();
         $target = $e->sender;
-        $panel = new UXPanel();
-        $panel->size = [640, 480];
-        $panel->y = $form->height / 2 - 640 / 2;
-        $panel->x = $form->width / 2 - 640 / 2;
-        $panel->on('click', function ($e) {
-            $e->sender->tofront();
-        });
-        $panel->classesString = 'panel_color scroll-pane';
+        
+        $x_panel = $form->height / 2 - 640 / 2; $y_panel = $form->width / 2 - 640 / 2;
+        $panel = $this->uxcreator->panel($x,$y);
         $panel->data('target', $target);
-        $panel->borderWidth = 0;
-        $panel->style = '';
         $dragging->apply($panel);
-        $UX_head = new UXLabel();
-        $UX_head->text = "Сектор " . $target->data('x') . ":" . $target->data('y'). " - ". $target->data('name');
-        $UX_head->autosize = true;
+        
+        $circle = new UXRectangle();
+        $circle->x = 0;
+        $circle->y = 0;
+        $circle->fillColor = '#333333';
+        $circle->classesString = 'container';
+        $circle->strokeColor = 'black';
+        $circle->size = [640, 32];
+        $panel->add($circle);
+        
+        $UX_head = $this->uxcreator->label("Сектор " . $target->data('x') . ":" . $target->data('y'). " - ". $target->data('name'));
         $panel->add($UX_head);
         $UX_head->x = 8;
-        $UX_head->y = 0;
+        $UX_head->y = 8;
 
         $UX_list = new UXListView();
-        $UX_list->size = [250, 640 - 32];
+        $UX_list->size = [216, 430 - 32];
         $panel->add($UX_list);
-        $UX_list->x = 0;
-        $UX_list->y = 32;
+        $UX_list->x = 8;
+        $UX_list->y = 40;
 
         $UX_button_build = new UXButton();
         $UX_button_build->text = 'Производство';
-        $UX_button_build->size = [100, 16];
+        $UX_button_build->size = [216, 32];
         $panel->add($UX_button_build);
-        $UX_button_build->x = 255;
-        $UX_button_build->y = 16;
+        $UX_button_build->x = 8;
+        $UX_button_build->y = 480 - 40;
         $UX_button_build->on('click', function ($e) use ($target,$form) {
             $form->form('build_units')->target = $target;
             $form->form('build_units')->hide();
@@ -114,7 +115,7 @@ class game
         $UX_button_build->text = 'X';
         $UX_button_build->size = [20, 20];
         $panel->add($UX_button_build);
-        $UX_button_build->x = 620;
+        $UX_button_build->x = 616;
         $UX_button_build->y = 0;
         $UX_button_build->classesString = 'button';
         $UX_button_build->on('click', function ($e) use ($panel) {

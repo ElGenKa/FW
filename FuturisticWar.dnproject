@@ -1,27 +1,25 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<project author="ElGen" authorOS="Windows 10" createdAt="1557165366124" ideName="DevelNext" ideVersion="16.7.0" ideVersionHash="2017103112" name="FuturisticWar" packageName="app" template="ide\project\templates\DefaultGuiProjectTemplate" updatedAt="1558868950673">
+<project author="ElGen" authorOS="Windows 10" createdAt="1557165366124" ideName="DevelNext" ideVersion="16.7.0" ideVersionHash="2017103112" name="FuturisticWar" packageName="app" template="ide\project\templates\DefaultGuiProjectTemplate" updatedAt="1558878852859">
   <tree>
     <expanded>
     <path src=""/>
-      <path src="/db"/>
-      <path src="/UI"/>
       <path src="/vendor"/>
     </expanded>
   </tree>
   <openedFiles>
-  <file src="FuturisticWar.dnproject"/>
+  <file selected="1" src="FuturisticWar.dnproject"/>
     <file src="src/app/modules/MainModule.php"/>
     <file src="src/app/forms/MainForm.php"/>
     <file src="src/app/forms/viewGame.php"/>
     <file src="src/app/forms/select_sector.php"/>
     <file src="src/app/forms/build_structure.php"/>
-    <file selected="1" src="src/app/forms/build_units.php"/>
+    <file src="src/app/forms/build_units.php"/>
     <file src="src/app/forms/build_upgrades.php"/>
     <file src="src/app/game_data/game.php"/>
+    <file src="src/app/game_data/UXCreator.php"/>
     <file src="src/app/game_data/db/structures.php"/>
     <file src="src/app/game_data/db/units.php"/>
     <file src="src/.theme/style.fx.css"/>
-    <file src="src/app/game_data/UXCreator.php"/>
   </openedFiles>
   <files/>
   <behaviours>

@@ -8,6 +8,7 @@ class MainModule extends AbstractModule
 {
 
     var $music;
+    var $httpConnector;
 
     /**
      * @event player.play 
@@ -46,6 +47,20 @@ class MainModule extends AbstractModule
         $e->sender->autoplay = true;
         $e->sender->loop = false;
         //$e->sender->open($this->music['list'][$this->music['this']]);
+    }
+
+    /**
+     * @event action 
+     */
+    function doAction(ScriptEvent $e = null)
+    {    
+        $this->httpConnector = new httpConnector($this->httpClient);
+        //$resp = $this->httpClient->get();
+        $this->httpClient->postAsync('http://185.244.42.28/auth.php',[], function($e){
+            var_dump($e);
+        });
+        //$this->httpClient->execute()
+        //var_dump($resp->
     }
 
 }

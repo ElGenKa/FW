@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<?import javafx.scene.*?><?import javafx.collections.*?><?import javafx.scene.layout.*?><?import javafx.scene.control.*?><?import javafx.scene.text.*?><?import javafx.scene.image.*?><?import javafx.scene.shape.*?><?import javafx.scene.paint.*?><?import javafx.scene.web.*?><?import javafx.geometry.*?><?import java.lang.*?><?import org.develnext.jphp.ext.javafx.classes.data.*?><?import org.develnext.jphp.ext.javafx.support.*?><?import org.develnext.jphp.ext.javafx.support.control.*?><?import org.develnext.jphp.ext.game.support.*?><AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="0" focusTraversable="false" id="" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="480" prefWidth="640" styleClass="">
+<?import javafx.scene.*?><?import javafx.collections.*?><?import javafx.scene.layout.*?><?import javafx.scene.control.*?><?import javafx.scene.text.*?><?import javafx.scene.image.*?><?import javafx.scene.shape.*?><?import javafx.scene.paint.*?><?import javafx.scene.web.*?><?import javafx.geometry.*?><?import java.lang.*?><?import org.develnext.jphp.ext.javafx.classes.data.*?><?import org.develnext.jphp.ext.javafx.support.*?><?import org.develnext.jphp.ext.javafx.support.control.*?><?import org.develnext.jphp.ext.game.support.*?><AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="0" focusTraversable="false" id="" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="480" prefWidth="640" styleClass="gmbg ">
   <children>
-    <VBox alignment="CENTER" focusTraversable="false" id="vbox" layoutX="152" layoutY="104" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="224" prefWidth="350" spacing="5" styleClass="">
+    <VBox alignment="CENTER" focusTraversable="false" id="vbox" layoutX="152" layoutY="104" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="224" prefWidth="350" spacing="5" styleClass="container ">
       <padding>
         <Insets bottom="0" left="15" right="15" top="0"/>
       </padding>
@@ -12,9 +12,14 @@
             <Font name="Georgia" size="12"/>
           </font>
         </LabelEx>
-        <TextField alignment="CENTER_LEFT" editable="true" focusTraversable="true" id="edit" layoutX="15" layoutY="37" prefColumnCount="12" prefHeight="32" prefWidth="144" promptText="" styleClass="text-input text-field " text="">
+        <TextField alignment="CENTER_LEFT" editable="true" focusTraversable="true" id="edit" layoutX="15" layoutY="37" prefColumnCount="12" prefHeight="32" prefWidth="144" promptText="" text="">
+          <styleClass xmlns:fx="http://javafx.com/fxml">
+            <String fx:value="text-input"/>
+            <String fx:value="text-field"/>
+            <String fx:value="label"/>
+          </styleClass>
           <font>
-            <Font name="System Regular" size="12"/>
+            <Font name="Georgia" size="12"/>
           </font>
         </TextField>
         <Data cursor="DEFAULT" enabled="1" id="data-edit" visible="1"/>
@@ -24,9 +29,14 @@
           </font>
         </LabelEx>
         <Data cursor="DEFAULT" enabled="1" id="data-labelAlt" visible="1"/>
-        <TextField alignment="CENTER_LEFT" editable="true" focusTraversable="true" id="editAlt" layoutX="15" layoutY="96" prefColumnCount="12" prefHeight="32" prefWidth="144" promptText="" styleClass="text-input text-field " text="">
+        <TextField alignment="CENTER_LEFT" editable="true" focusTraversable="true" id="editAlt" layoutX="15" layoutY="96" prefColumnCount="12" prefHeight="32" prefWidth="144" promptText="" text="">
+          <styleClass xmlns:fx="http://javafx.com/fxml">
+            <String fx:value="text-input"/>
+            <String fx:value="text-field"/>
+            <String fx:value="label"/>
+          </styleClass>
           <font>
-            <Font name="System Regular" size="12"/>
+            <Font name="Georgia" size="12"/>
           </font>
         </TextField>
         <Data cursor="DEFAULT" enabled="1" id="data-editAlt" visible="1"/>
