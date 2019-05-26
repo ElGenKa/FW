@@ -1,0 +1,29 @@
+{
+  "props": {
+    "singleton": true
+  },
+  "components": {
+    "database": {
+      "type": "bundle\\sql\\SqliteClient",
+      "x": 320,
+      "y": 224,
+      "props": {
+        "file": "example.db",
+        "autoOpen": "1",
+        "catchErrors": "1",
+        "transactionIsolation": 8
+      }
+    },
+    "player": {
+      "type": "script\\MediaPlayerScript",
+      "x": 240,
+      "y": 192,
+      "props": {
+        "autoplay": "1",
+        "volume": "1.0",
+        "balance": "0.0",
+        "rate": "1.0"
+      }
+    }
+  }
+}
