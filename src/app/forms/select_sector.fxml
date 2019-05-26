@@ -9,19 +9,19 @@
     <Data cursor="DEFAULT" enabled="1" id="data-listView" visible="1"/>
     <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="button_build" layoutX="232" layoutY="32" prefHeight="32" prefWidth="104" styleClass="button " text="Строительство" textAlignment="CENTER" underline="false" wrapText="false">
       <font>
-        <Font name="System Regular" size="12"/>
+        <Font name="Georgia" size="12"/>
       </font>
     </Button>
     <Data cursor="DEFAULT" enabled="" id="data-button_build" visible="1"/>
     <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="button_create" layoutX="424" layoutY="32" prefHeight="32" prefWidth="104" styleClass="button " text="Производство" textAlignment="CENTER" underline="false" wrapText="false">
       <font>
-        <Font name="System Regular" size="12"/>
+        <Font name="Georgia" size="12"/>
       </font>
     </Button>
     <Data cursor="DEFAULT" enabled="" id="data-button_create" visible="1"/>
     <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="button_upgrade" layoutX="336" layoutY="32" prefHeight="32" prefWidth="88" styleClass="button " text="Улучшения" textAlignment="CENTER" underline="false" wrapText="false">
       <font>
-        <Font name="System Regular" size="12"/>
+        <Font name="Georgia" size="12"/>
       </font>
     </Button>
     <Data cursor="DEFAULT" enabled="" id="data-button_upgrade" visible="1"/>
@@ -29,7 +29,7 @@
     <Data cursor="DEFAULT" enabled="1" id="data-rect" visible="1"/>
     <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="button4" layoutX="496" layoutY="0" prefHeight="32" prefWidth="32" styleClass="button " text="X" textAlignment="CENTER" underline="false" wrapText="false">
       <font>
-        <Font name="System Regular" size="12"/>
+        <Font name="Georgia" size="12"/>
       </font>
     </Button>
     <Data cursor="DEFAULT" enabled="1" id="data-button4" visible="1"/>

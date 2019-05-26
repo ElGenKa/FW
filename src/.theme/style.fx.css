@@ -4,12 +4,19 @@
     -fx-background-image: url("UI/bg.jpg");
     -fx-background-repeat: stretch;   
     -fx-background-position: center center;
-    -fx-effect: dropshadow(three-pass-box, black, 30, 0.5, 0, 0); 
+    -fx-effect: dropshadow(three-pass-box, black, 15, 0.5, 0, 0); 
 }
 
 .scroll-pane{
-    -fx-effect: dropshadow(three-pass-box, black, 30, 0.5, 0, 0); 
-    //-fx-background-color: rgb(255,255,255);
+    -fx-effect: dropshadow(three-pass-box, black, 5, 0.5, 0, 0); 
+}
+
+.container{
+    -fx-effect: dropshadow(three-pass-box, black, 5, 0.5, 0, 0);
+}
+
+.panel_color{
+    -fx-background-color: #333333;
 }
 
 .label{
@@ -30,4 +37,8 @@
 
 .label_yellow{
     -fx-text-fill: #ffff80;
+}
+
+.button{
+    -fx-font: 12px Georgia;
 }

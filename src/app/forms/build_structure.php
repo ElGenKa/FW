@@ -42,11 +42,13 @@ class build_structure extends AbstractForm
         $this->hide();
     }
 
+
+
     /**
      * @event listView.action 
      */
     function doListViewAction(UXEvent $e = null)
-    {    
+    {
         $structure = $this->list[$e->sender->selectedIndex];
         if(!empty($this->objects)){
             foreach ($this->objects as $oject){
@@ -132,14 +134,13 @@ class build_structure extends AbstractForm
         $ux->classesString = 'label';
         $this->objects[] = $ux;
         $this->form('build_structure')->vbox->add($ux);
-        
     }
 
     /**
      * @event buttonAlt.action 
      */
     function doButtonAltAction(UXEvent $e = null)
-    {    
+    {
         //$e->target->data('structures')[$k]
         $structure = $this->list[$this->listView->selectedIndex];
         $ux = $this->form('viewGame')->map[$this->pos[0]][$this->pos[1]];

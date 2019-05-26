@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <?import javafx.scene.*?><?import javafx.collections.*?><?import javafx.scene.layout.*?><?import javafx.scene.control.*?><?import javafx.scene.text.*?><?import javafx.scene.image.*?><?import javafx.scene.shape.*?><?import javafx.scene.paint.*?><?import javafx.scene.web.*?><?import javafx.geometry.*?><?import java.lang.*?><?import org.develnext.jphp.ext.javafx.classes.data.*?><?import org.develnext.jphp.ext.javafx.support.*?><?import org.develnext.jphp.ext.javafx.support.control.*?><?import org.develnext.jphp.ext.game.support.*?><AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="0" focusTraversable="false" id="" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="480" prefWidth="640" styleClass="">
   <children>
-    <Rectangle arcHeight="0" arcWidth="0" fill="#333333" focusTraversable="false" height="32" id="rect" layoutX="0" layoutY="0" stroke="#000000" strokeType="INSIDE" strokeWidth="2" styleClass="" width="640"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-label" visible="1"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-rect" visible="1"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-button" visible="1"/>
+    <Rectangle arcHeight="0" arcWidth="0" fill="#333333" focusTraversable="false" height="32" id="rect" layoutX="0" layoutY="0" stroke="#000000" strokeType="INSIDE" strokeWidth="2" styleClass="container " width="640"/>
     <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label" layoutX="8" layoutY="8" prefHeight="17" prefWidth="584" styleClass="label " text="Выбирите улучшение" textAlignment="LEFT" underline="false" wrapText="false">
       <font>
         <Font name="Georgia" size="12"/>
       </font>
     </LabelEx>
-    <Data cursor="DEFAULT" enabled="1" id="data-label" visible="1"/>
-    <Data cursor="DEFAULT" enabled="1" id="data-rect" visible="1"/>
     <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="button" layoutX="608" layoutY="0" prefHeight="32" prefWidth="32" styleClass="button " text="X" textAlignment="CENTER" underline="false" wrapText="false">
       <font>
-        <Font name="System Regular" size="12"/>
+        <Font name="Georgia" size="12"/>
       </font>
     </Button>
-    <Data cursor="DEFAULT" enabled="1" id="data-button" visible="1"/>
   </children>
 </AnchorPane>

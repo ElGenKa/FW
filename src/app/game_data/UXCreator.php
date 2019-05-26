@@ -12,4 +12,12 @@ class UXCreator
         $label->classesString = $classes;
         return $label;
     }
+    
+    public function panel(){
+        
+    }
+    
+    public function button(){
+        
+    }
 }

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <?import javafx.scene.*?><?import javafx.collections.*?><?import javafx.scene.layout.*?><?import javafx.scene.control.*?><?import javafx.scene.text.*?><?import javafx.scene.image.*?><?import javafx.scene.shape.*?><?import javafx.scene.paint.*?><?import javafx.scene.web.*?><?import javafx.geometry.*?><?import java.lang.*?><?import org.develnext.jphp.ext.javafx.classes.data.*?><?import org.develnext.jphp.ext.javafx.support.*?><?import org.develnext.jphp.ext.javafx.support.control.*?><?import org.develnext.jphp.ext.game.support.*?><AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="0" focusTraversable="false" id="" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="648" prefWidth="928" styleClass="gmbg ">
   <children>
-    <ScrollPane fitToHeight="true" fitToWidth="true" focusTraversable="false" hbarPolicy="AS_NEEDED" hvalue="0" id="container" layoutX="232" layoutY="0" prefHeight="648" prefWidth="696" styleClass="scroll-pane " vbarPolicy="AS_NEEDED" vvalue="0">
+    <ScrollPane fitToHeight="true" fitToWidth="true" focusTraversable="false" hbarPolicy="AS_NEEDED" hvalue="0" id="container" layoutX="232" layoutY="0" prefHeight="648" prefWidth="696" styleClass="container " vbarPolicy="AS_NEEDED" vvalue="0">
       <content>
         <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="648" prefWidth="696" styleClass="">
           <children/>
@@ -9,7 +9,7 @@
       </content>
     </ScrollPane>
     <Data cursor="DEFAULT" enabled="1" id="data-container" visible="1"/>
-    <VBox alignment="TOP_LEFT" focusTraversable="false" id="vbox" layoutX="0" layoutY="0" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="136" prefWidth="232" spacing="5" style="-fx-background-color: rgba(15, 15, 15, .7);" styleClass="scroll-pane ">
+    <VBox alignment="TOP_LEFT" focusTraversable="false" id="vbox" layoutX="0" layoutY="0" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="136" prefWidth="232" spacing="5" style="-fx-background-color: rgba(15, 15, 15, .7);" styleClass="container ">
       <children>
         <ListViewEx editable="false" fixedCellSize="-1" focusTraversable="true" id="listViewAlt" layoutX="0" layoutY="0" prefHeight="72" prefWidth="232" styleClass="list-view ">
           <items xmlns:fx="http://javafx.com/fxml">

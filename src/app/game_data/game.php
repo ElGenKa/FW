@@ -79,7 +79,7 @@ class game
         $panel->on('click', function ($e) {
             $e->sender->tofront();
         });
-        $panel->classesString = 'scroll-pane';
+        $panel->classesString = 'panel_color scroll-pane';
         $panel->data('target', $target);
         $panel->borderWidth = 0;
         $panel->style = '';
@@ -116,6 +116,7 @@ class game
         $panel->add($UX_button_build);
         $UX_button_build->x = 620;
         $UX_button_build->y = 0;
+        $UX_button_build->classesString = 'button';
         $UX_button_build->on('click', function ($e) use ($panel) {
             $panel->data('timer')->cancel();
             $panel->free();

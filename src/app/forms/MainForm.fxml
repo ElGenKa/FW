@@ -39,13 +39,13 @@
           <children>
             <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="button" layoutX="14" layoutY="8" prefHeight="32" prefWidth="144" styleClass="button " text="Регистрация" textAlignment="CENTER" underline="false" wrapText="false">
               <font>
-                <Font name="System Regular" size="12"/>
+                <Font name="Georgia" size="12"/>
               </font>
             </Button>
             <Data cursor="DEFAULT" enabled="1" id="data-button" visible="1"/>
             <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="buttonAlt" layoutX="163" layoutY="8" prefHeight="32" prefWidth="144" styleClass="button " text="Вход" textAlignment="CENTER" underline="false" wrapText="false">
               <font>
-                <Font name="System Regular" size="12"/>
+                <Font name="Georgia" size="12"/>
               </font>
             </Button>
             <Data cursor="DEFAULT" enabled="1" id="data-buttonAlt" visible="1"/>

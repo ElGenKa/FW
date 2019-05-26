@@ -5,6 +5,7 @@
 /.dn/tmp
 /.dn/index.json
 /.dn/backup
+/.dn/bundles
 
 /vendor
 /src_generated
