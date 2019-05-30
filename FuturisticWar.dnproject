@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<project author="ElGen" authorOS="Windows 10" createdAt="1557165366124" ideName="DevelNext" ideVersion="16.7.0" ideVersionHash="2017103112" name="FuturisticWar" packageName="app" template="ide\project\templates\DefaultGuiProjectTemplate" updatedAt="1558908455368">
+<project author="ElGen" authorOS="Windows 10" createdAt="1557165366124" ideName="DevelNext" ideVersion="16.7.0" ideVersionHash="2017103112" name="FuturisticWar" packageName="app" template="ide\project\templates\DefaultGuiProjectTemplate" updatedAt="1559234219279">
   <tree>
     <expanded>
     <path src=""/>

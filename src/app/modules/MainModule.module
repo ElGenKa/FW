@@ -22,8 +22,8 @@
       "x": 320,
       "y": 224,
       "props": {
-        "file": "example.db",
-        "autoOpen": "1",
+        "file": "user_settings.db",
+        "autoOpen": true,
         "catchErrors": "1",
         "transactionIsolation": 8
       }

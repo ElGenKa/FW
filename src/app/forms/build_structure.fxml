@@ -5,17 +5,17 @@
     <Data cursor="DEFAULT" enabled="1" id="data-label" visible="1"/>
     <Data cursor="DEFAULT" enabled="1" id="data-button" visible="1"/>
     <Rectangle arcHeight="0" arcWidth="0" fill="#333333" focusTraversable="false" height="32" id="rect" layoutX="0" layoutY="0" stroke="#000000" strokeType="INSIDE" strokeWidth="2" styleClass="container " width="640"/>
-    <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label" layoutX="8" layoutY="0" prefHeight="32" prefWidth="592" styleClass="label " text="Выбирите структуру" textAlignment="LEFT" textFill="#000000" underline="false" wrapText="false">
+    <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label" layoutX="8" layoutY="0" prefHeight="32" prefWidth="592" styleClass="label " text="Выбирите структуру" textAlignment="LEFT" underline="false" wrapText="false">
       <font>
         <Font name="Georgia" size="12"/>
       </font>
     </LabelEx>
-    <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="button" layoutX="608" layoutY="0" prefHeight="32" prefWidth="32" styleClass="button " text="X" textAlignment="CENTER" textFill="#000000" underline="false" wrapText="false">
+    <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="button" layoutX="608" layoutY="0" prefHeight="32" prefWidth="32" styleClass="button " text="X" textAlignment="CENTER" underline="false" wrapText="false">
       <font>
-        <Font name="System Regular" size="12"/>
+        <Font name="Georgia" size="12"/>
       </font>
     </Button>
-    <ScrollPane focusTraversable="false" hbarPolicy="AS_NEEDED" hvalue="0" id="container" layoutX="8" layoutY="40" prefHeight="432" prefWidth="216" styleClass="container " vbarPolicy="AS_NEEDED" vvalue="0">
+    <ScrollPane focusTraversable="false" hbarPolicy="AS_NEEDED" hvalue="0" id="container" layoutX="8" layoutY="40" prefHeight="432" prefWidth="216" styleClass="scroll-pane container " vbarPolicy="AS_NEEDED" vvalue="0">
       <content>
         <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="432" prefWidth="216" styleClass="">
           <children>
@@ -25,7 +25,7 @@
               </items>
             </ListViewEx>
             <Data cursor="DEFAULT" enabled="1" id="data-listView" visible="1"/>
-            <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="buttonAlt" layoutX="0" layoutY="400" prefHeight="32" prefWidth="216" styleClass="button " text="Строить" textAlignment="CENTER" textFill="#000000" underline="false" wrapText="false">
+            <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="buttonAlt" layoutX="0" layoutY="400" prefHeight="32" prefWidth="216" styleClass="button " text="Строить" textAlignment="CENTER" underline="false" wrapText="false">
               <font>
                 <Font name="Georgia" size="12"/>
               </font>
@@ -36,13 +36,13 @@
       </content>
     </ScrollPane>
     <Data cursor="DEFAULT" enabled="1" id="data-container" visible="1"/>
-    <ScrollPane focusTraversable="false" hbarPolicy="NEVER" hvalue="0" id="containerAlt" layoutX="232" layoutY="40" prefHeight="432" prefWidth="400" styleClass="container " vbarPolicy="ALWAYS" vvalue="0">
+    <ScrollPane focusTraversable="false" hbarPolicy="NEVER" hvalue="0" id="containerAlt" layoutX="232" layoutY="40" prefHeight="432" prefWidth="400" styleClass="scroll-pane container " vbarPolicy="ALWAYS" vvalue="0">
       <content>
         <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="432" prefWidth="384" styleClass="">
           <children>
             <VBox alignment="TOP_LEFT" focusTraversable="false" id="vbox" layoutX="0" layoutY="0" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="432" prefWidth="384" spacing="3" styleClass="">
               <children>
-                <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="labelAlt" layoutX="0" layoutY="0" prefHeight="17" prefWidth="216" styleClass="label " text="Описание структуры" textAlignment="LEFT" textFill="#000000" underline="false" wrapText="false">
+                <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="labelAlt" layoutX="0" layoutY="0" prefHeight="17" prefWidth="216" styleClass="label " text="Описание структуры" textAlignment="LEFT" underline="false" wrapText="false">
                   <font>
                     <Font name="Georgia" size="12"/>
                   </font>

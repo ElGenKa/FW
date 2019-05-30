@@ -1,6 +1,7 @@
 <?php
 namespace app\forms;
 
+use Exception;
 use facade\Json;
 use std, gui, framework, app;
 
@@ -42,11 +43,18 @@ class MainForm extends AbstractForm
             $this->vbox->y = ($this->form('MainForm')->height / 2) - ($this->vbox->height / 2);
             Timer::setInterval(function(){
                 $thread = new Thread(function(){
+                try {
+                    $ping = microtime(true);
                     $get = file_get_contents('http://185.244.42.28/gameApi/api.php?method=ping');
-                    $get = Json::decode($get);
-                    uiLater(function() use ($get){
-                        $this->label3->text = $get['response']['msg'];
-                    });
+                    //$get = Json::decode($get);
+                        uiLater(function() use ($ping){
+                            $this->label3->text = "Ping: ". floor((microtime(true) - $ping) * 1000);
+                        });
+                    }catch (Exception $e){
+                        uiLater(function() use ($ping){
+                            $this->label3->text = "Ping: not connected!";
+                        });
+                    }
                 });
                 $thread->start();
             },4000);
