@@ -5,10 +5,13 @@
  * Date: 30.05.2019
  * Time: 22:22
  */
-
 namespace app\game;
-use gui;
 
+use gui;
+use php\gui\UXLabel;
+use php\gui\layout\UXPanel;
+use php\gui\UXCanvas;
+use php\gui\UXImage;
 
 class UXCreator
 {

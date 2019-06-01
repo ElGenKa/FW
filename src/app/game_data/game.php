@@ -2,6 +2,14 @@
 
 namespace app\game_data;
 
+use behaviour\custom\DraggingBehaviour;
+use php\gui\shape\UXRectangle;
+use php\gui\UXButton;
+use php\gui\UXCanvas;
+use php\gui\UXForm;
+use php\gui\UXListView;
+use php\time\Timer;
+use script\MediaPlayerScript;
 use std, gui, framework, app;
 use app\game_data\db\units;
 use app\game_data\db\structures;
@@ -63,13 +71,14 @@ class game
         return $s;
     }
 
-    public function create_panel_units($e, $form){
+    public function create_panel_units($e, UXForm $form){
         $target = $e->sender;
         //$target
     }
 
-    public function create_panel($e, $form)
+    public function create_panel($e, UXForm $form)
     {
+
         $dragging = new DraggingBehaviour();
         $target = $e->sender;
         
@@ -86,7 +95,7 @@ class game
         $circle->strokeColor = 'black';
         $circle->size = [640, 32];
         $panel->add($circle);
-        
+
         $UX_head = $this->uxcreator->label("Сектор " . $target->data('x') . ":" . $target->data('y'). " - ". $target->data('name'));
         $panel->add($UX_head);
         $UX_head->x = 8;

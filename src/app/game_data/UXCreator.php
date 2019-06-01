@@ -2,7 +2,8 @@
 namespace app\game_data;
 
 use gui;
-
+use php\gui\UXLabel;
+use php\gui\layout\UXPanel;
 class UXCreator 
 {
     public function label($text,$classes = 'label', $AS = true){

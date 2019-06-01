@@ -12,7 +12,7 @@ namespace app\game;
 class HTTPConnector
 {
     private $baseUrl;
-    public function __contruct($httpClient){
+    public function __contruct(){
         $this->baseUrl = 'http://185.244.42.28/';
     }
 }
