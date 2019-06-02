@@ -14,9 +14,19 @@ class viewGame extends AbstractForm
     var $game_data;
     var $select;
     var $ux;
-    
+
     var $eco_ux;
     var $creator;
+
+    var $uxcreator;
+    var $database;
+    var $SoundFX;
+
+    var $GameMap;
+    var $GameProcessor;
+    var $resurces;
+
+    var $mapCanvas;
 
     /**
      * @event show
@@ -24,86 +34,81 @@ class viewGame extends AbstractForm
     function doShow(UXWindowEvent $e = null)
     {
         $this->game_data = new game();
-        $this->creator = $this->game_data->uxcreator;
-    
-        $sector_names = file('db/sectors.txt');
-    
-        $this->ux['box_bg'] = new UXImage('UI/map/box_bg.png');
-        $this->ux['player_sector'][0] = new UXImage('UI/icons/0.png');
-        $this->ux['player_sector'][1] = new UXImage('UI/icons/1.png');
-        $this->ux['player_sector'][2] = new UXImage('UI/icons/2.png');
-        $this->ux['player_sector_b'] = new UXImage('UI/icons/sector_b.png');
-        $this->ux['player_sector_add'] = new UXImage('UI/icons/add.png');
-        $this->ux['player_sector_build'] = new UXImage('UI/icons/build.png');
-        $this->ux['player_sector_build_wait'] = new UXImage('UI/icons/wait_build.png');
-        $this->ux['line_process_color'] = new UXImage('UI/icons/process_build.png');
-        
-            $player = $this->player;
-            $this->listViewAlt->items->clear();
-            
-            $label_area = new UXHBox();
-            $label_area->spacing = 5;
-            $this->eco_ux['label_area_minerals'] = $label_area;
-            
-            $label_blue = $this->creator->label('Минералы: ', 'label label_blue');
-            $label_area->add($label_blue);
-            $this->eco_ux['label_minerals'] = $label_blue;
-            
-            $label_blue = $this->creator->label(0, 'label');
-            $label_area->add($label_blue);
-            $this->eco_ux['label_minerals_store'] = $label_blue;
-            
-            $label_blue = $this->creator->label(0, 'label label_green');
-            $label_area->add($label_blue);
-            $this->eco_ux['label_minerals_incum'] = $label_blue;
-            
-            $this->listViewAlt->items->add($label_area);
-            
-            $label_area = new UXHBox();
-            $label_area->spacing = 5;
-            $this->eco_ux['label_area_energy'] = $label_area;
-            $label_blue = new UXLabel();
-            $label_blue->autosize = true;
-            $label_blue->text = "Энергия:";
-            $label_blue->classesString = 'label label_yellow';
-            $label_area->add($label_blue);
-            $this->eco_ux['label_energy'] = $label_blue;
-            $label_blue = new UXLabel();
-            $label_blue->autosize = true;
-            $label_blue->text = 0;
-            $label_blue->classesString = 'label';
-            $label_area->add($label_blue);
-            $this->eco_ux['label_energy_store'] = $label_blue;
-            $label_blue = new UXLabel();
-            $label_blue->autosize = true;
-            $label_blue->text = 0;
-            $label_blue->classesString = 'label label_green';
-            $label_area->add($label_blue);
-            $this->eco_ux['label_energy_incum'] = $label_blue;
-            
-            $this->listViewAlt->items->add($label_area);
-            
-            //$this->listViewAlt->items->add('Минералы: ' . $this->player_data[$player]['minerals'] . " (" . $this->player_data[$player]['minerals_inc'] . ")");
-            
-            //$this->listViewAlt->items->add('Энергия: ' . $this->player_data[$player]['energy'] . " (" . $this->player_data[$player]['energy_inc'] . ")");
-            $this->listViewAlt->items->add('Армия: ' . $this->player_data[$player]['army'] . " (" . $this->player_data[$player]['supply'] . ")");
+        //$this->creator = $this->game_data->uxcreator;
+        $this->uxcreator = new app\game\UXCreator();
+        $this->database = new app\game\database();
+        $this->SoundFX = new app\game\SoundFX();
+        $this->GameProcessor = new app\game\GameProcessing();
+        $this->resurces = new app\game\ResurceManager();
+        $this->GameMap = new app\game\CanvasRenderer($this->GameProcessor, $this->resurces);
+        $this->mapCanvas = $this->GameMap->get_canvas();
+
+        $player = $this->player;
+        $this->listViewAlt->items->clear();
+
+        $label_area = new UXHBox();
+        $label_area->spacing = 5;
+        $this->eco_ux['label_area_minerals'] = $label_area;
+
+        $label_blue = $this->creator->label('Минералы: ', 'label label_blue');
+        $label_area->add($label_blue);
+        $this->eco_ux['label_minerals'] = $label_blue;
+
+        $label_blue = $this->creator->label(0, 'label');
+        $label_area->add($label_blue);
+        $this->eco_ux['label_minerals_store'] = $label_blue;
+
+        $label_blue = $this->creator->label(0, 'label label_green');
+        $label_area->add($label_blue);
+        $this->eco_ux['label_minerals_incum'] = $label_blue;
+
+        $this->listViewAlt->items->add($label_area);
+
+        $label_area = new UXHBox();
+        $label_area->spacing = 5;
+        $this->eco_ux['label_area_energy'] = $label_area;
+        $label_blue = new UXLabel();
+        $label_blue->autosize = true;
+        $label_blue->text = "Энергия:";
+        $label_blue->classesString = 'label label_yellow';
+        $label_area->add($label_blue);
+        $this->eco_ux['label_energy'] = $label_blue;
+        $label_blue = new UXLabel();
+        $label_blue->autosize = true;
+        $label_blue->text = 0;
+        $label_blue->classesString = 'label';
+        $label_area->add($label_blue);
+        $this->eco_ux['label_energy_store'] = $label_blue;
+        $label_blue = new UXLabel();
+        $label_blue->autosize = true;
+        $label_blue->text = 0;
+        $label_blue->classesString = 'label label_green';
+        $label_area->add($label_blue);
+        $this->eco_ux['label_energy_incum'] = $label_blue;
+
+        $this->listViewAlt->items->add($label_area);
+
+        //$this->listViewAlt->items->add('Минералы: ' . $this->player_data[$player]['minerals'] . " (" . $this->player_data[$player]['minerals_inc'] . ")");
+
+        //$this->listViewAlt->items->add('Энергия: ' . $this->player_data[$player]['energy'] . " (" . $this->player_data[$player]['energy_inc'] . ")");
+        $this->listViewAlt->items->add('Армия: ' . $this->player_data[$player]['army'] . " (" . $this->player_data[$player]['supply'] . ")");
 
         for ($i = 0; $i < 15; $i++) {
             for ($j = 0; $j < 15; $j++) {
                 $UX = new UXCanvas();
-                $UX->data('name', $sector_names[$i*15+$j]);
+                $UX->data('name', $sector_names[$i * 15 + $j]);
                 $UX->size = [50, 50];
                 $UX->position = [$j * 50, $i * 50];
                 $UX->gc()->drawImage($this->ux['box_bg'], 0, 0);
                 $UX->gc()->drawImage($this->ux['player_sector'][0], 0, 0);
-                $UX->gc()->font = UXFont::of('Arial',14);
+                $UX->gc()->font = UXFont::of('Arial', 14);
                 //$UX->gc()->font = UXFont::
                 //$UX->gc()->font = "6px Arial";
                 $UX->strokeColor = '#808080';
                 $UX->fillColor = '#cccccc';
                 $UX->data('x', $j);
                 $UX->data('y', $i);
-                $UX->gc()->fillText($UX->data('x').":".$UX->data('y'),3,14);
+                $UX->gc()->fillText($UX->data('x') . ":" . $UX->data('y'), 3, 14);
                 $UX->data('mineral', 0.5);
                 $UX->data('energy', 0.5);
                 $UX->data('supply', 5);
@@ -252,23 +257,23 @@ class viewGame extends AbstractForm
     {
         uiLater(function () {
             $player = $this->player;
-            
+
             $this->eco_ux['label_minerals_store']->text = $this->player_data[$player]['minerals'];
             $this->eco_ux['label_minerals_incum']->text = $this->player_data[$player]['minerals_inc'];
-            
-            if($this->player_data[$player]['minerals_inc'] > 0)
+
+            if ($this->player_data[$player]['minerals_inc'] > 0)
                 $this->eco_ux['label_minerals_incum']->classesString = 'label label_green';
-            else 
+            else
                 $this->eco_ux['label_minerals_incum']->classesString = 'label label_red';
-                
+
             $this->eco_ux['label_energy_store']->text = $this->player_data[$player]['energy'];
             $this->eco_ux['label_energy_incum']->text = $this->player_data[$player]['energy_inc'];
-            
-            if($this->player_data[$player]['energy_inc'] > 0)
+
+            if ($this->player_data[$player]['energy_inc'] > 0)
                 $this->eco_ux['label_energy_incum']->classesString = 'label label_green';
-            else 
+            else
                 $this->eco_ux['label_energy_incum']->classesString = 'label label_red';
-            
+
             //$this->listViewAlt->items->add('Минералы: ' . $this->player_data[$player]['minerals'] . " (" . $this->player_data[$player]['minerals_inc'] . ")");
             //$this->listViewAlt->items->add($label_area);
             //$this->listViewAlt->items->add('Энергия: ' . $this->player_data[$player]['energy'] . " (" . $this->player_data[$player]['energy_inc'] . ")");
@@ -290,10 +295,10 @@ class viewGame extends AbstractForm
     }
 
     /**
-     * @event close 
+     * @event close
      */
     function doClose(UXWindowEvent $e = null)
-    {    
+    {
         app()->shutdown();
     }
 
@@ -314,7 +319,7 @@ class viewGame extends AbstractForm
         } elseif ($player == 4) {
             $UX->gc()->drawImage($this->ux['player_sector'][4], 0, 0);
         }
-        $UX->gc()->font = UXFont::of('Arial',14);
-        $UX->gc()->fillText($UX->data('x').":".$UX->data('y'),3,14);
+        $UX->gc()->font = UXFont::of('Arial', 14);
+        $UX->gc()->fillText($UX->data('x') . ":" . $UX->data('y'), 3, 14);
     }
 }
