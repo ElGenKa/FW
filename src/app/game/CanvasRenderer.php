@@ -23,6 +23,9 @@ class CanvasRenderer
         $this->canvas = new UXCanvas();
         $this->processor = $processor;
         $this->resurces = $Resurces;
+        $this->canvas->on('click', function($e){
+
+        });
     }
 
     public function get_canvas(){
@@ -38,6 +41,8 @@ class CanvasRenderer
             $width = $size;
             $height = $size;
         }
+
+        $this->canvas->size = [$width * 50, $height * 50];
 
         for ($i = 0; $i < $height; $i++) {
             for ($j = 0; $j < $width; $j++) {

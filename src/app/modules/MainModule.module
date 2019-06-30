@@ -5,8 +5,8 @@
   "components": {
     "httpClient": {
       "type": "bundle\\http\\HttpClient",
-      "x": 176.0,
-      "y": 272.0,
+      "x": 176,
+      "y": 272,
       "props": {
         "requestType": "URLENCODE",
         "responseType": "JSON",

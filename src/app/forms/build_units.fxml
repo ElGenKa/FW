@@ -15,7 +15,7 @@
       </font>
     </Button>
     <Data cursor="DEFAULT" enabled="1" id="data-button" visible="1"/>
-    <ScrollPane focusTraversable="false" hbarPolicy="NEVER" hvalue="0" id="container" layoutX="232" layoutY="40" prefHeight="432" prefWidth="400" styleClass="container " vbarPolicy="ALWAYS" vvalue="0">
+    <ScrollPane focusTraversable="false" hbarPolicy="NEVER" hvalue="0" id="container" layoutX="232" layoutY="40" prefHeight="432" prefWidth="400" styleClass="scroll-pane container " vbarPolicy="ALWAYS" vvalue="0">
       <content>
         <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="80" prefWidth="400" styleClass="">
           <children/>
@@ -23,7 +23,7 @@
       </content>
     </ScrollPane>
     <Data cursor="DEFAULT" enabled="1" id="data-container" visible="1"/>
-    <ScrollPane focusTraversable="false" hbarPolicy="AS_NEEDED" hvalue="0" id="containerAlt" layoutX="8" layoutY="40" prefHeight="432" prefWidth="216" styleClass="container " vbarPolicy="AS_NEEDED" vvalue="0">
+    <ScrollPane focusTraversable="false" hbarPolicy="AS_NEEDED" hvalue="0" id="containerAlt" layoutX="8" layoutY="40" prefHeight="432" prefWidth="216" styleClass="scroll-pane container " vbarPolicy="AS_NEEDED" vvalue="0">
       <content>
         <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="432" prefWidth="216" styleClass="">
           <children>

@@ -5,20 +5,37 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b1d83f04-4ad2-47c0-a6a0-b09f1d9a81af" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/app/game/Entitys/Entity.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/game/GameProcessing.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/game/ResurceManager.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/game/SoundFX.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/game/database.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/game/interfaces/Builds.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/game/interfaces/Sector.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/game/interfaces/Upgrades.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dn/backup.conf" beforeDir="false" afterPath="$PROJECT_DIR$/.dn/backup.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dn/bundles/develnext.bundle.game2d.Game2DBundle.conf" beforeDir="false" afterPath="$PROJECT_DIR$/.dn/bundles/develnext.bundle.game2d.Game2DBundle.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dn/bundles/develnext.bundle.httpclient.HttpClientBundle.conf" beforeDir="false" afterPath="$PROJECT_DIR$/.dn/bundles/develnext.bundle.httpclient.HttpClientBundle.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dn/bundles/develnext.bundle.sql.SqliteBundle.conf" beforeDir="false" afterPath="$PROJECT_DIR$/.dn/bundles/develnext.bundle.sql.SqliteBundle.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dn/bundles/ide.bundle.std.JPHPDesktopDebugBundle.conf" beforeDir="false" afterPath="$PROJECT_DIR$/.dn/bundles/ide.bundle.std.JPHPDesktopDebugBundle.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dn/bundles/ide.bundle.std.UIDesktopBundle.conf" beforeDir="false" afterPath="$PROJECT_DIR$/.dn/bundles/ide.bundle.std.UIDesktopBundle.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dn/ide/editors/FormEditor/src/app/forms/MainForm.php.conf" beforeDir="false" afterPath="$PROJECT_DIR$/.dn/ide/editors/FormEditor/src/app/forms/MainForm.php.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dn/ide/editors/FormEditor/src/app/forms/build_structure.php.conf" beforeDir="false" afterPath="$PROJECT_DIR$/.dn/ide/editors/FormEditor/src/app/forms/build_structure.php.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dn/ide/editors/FormEditor/src/app/forms/build_units.php.conf" beforeDir="false" afterPath="$PROJECT_DIR$/.dn/ide/editors/FormEditor/src/app/forms/build_units.php.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dn/ide/editors/FormEditor/src/app/forms/build_upgrades.php.conf" beforeDir="false" afterPath="$PROJECT_DIR$/.dn/ide/editors/FormEditor/src/app/forms/build_upgrades.php.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dn/ide/editors/FormEditor/src/app/forms/profile.php.conf" beforeDir="false" afterPath="$PROJECT_DIR$/.dn/ide/editors/FormEditor/src/app/forms/profile.php.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dn/ide/editors/FormEditor/src/app/forms/select_sector.php.conf" beforeDir="false" afterPath="$PROJECT_DIR$/.dn/ide/editors/FormEditor/src/app/forms/select_sector.php.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dn/ide/editors/FormEditor/src/app/forms/viewGame.php.conf" beforeDir="false" afterPath="$PROJECT_DIR$/.dn/ide/editors/FormEditor/src/app/forms/viewGame.php.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dn/ide/editors/ScriptModuleEditor/src/app/modules/MainModule.php.conf" beforeDir="false" afterPath="$PROJECT_DIR$/.dn/ide/editors/ScriptModuleEditor/src/app/modules/MainModule.php.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dn/ide/project/behaviours/BundleProjectBehaviour.conf" beforeDir="false" afterPath="$PROJECT_DIR$/.dn/ide/project/behaviours/BundleProjectBehaviour.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dn/ide/project/behaviours/PhpProjectBehaviour.conf" beforeDir="false" afterPath="$PROJECT_DIR$/.dn/ide/project/behaviours/PhpProjectBehaviour.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dn/library.conf" beforeDir="false" afterPath="$PROJECT_DIR$/.dn/library.conf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI/map/box_bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/UI/map/0.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FuturisticWar.dnproject" beforeDir="false" afterPath="$PROJECT_DIR$/FuturisticWar.dnproject" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/forms/MainForm.conf" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/forms/MainForm.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/forms/build_structure.conf" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/forms/build_structure.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/forms/build_units.conf" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/forms/build_units.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/forms/build_units.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/forms/build_units.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/forms/build_upgrades.conf" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/forms/build_upgrades.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/forms/profile.conf" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/forms/profile.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/forms/select_sector.conf" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/forms/select_sector.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/forms/viewGame.conf" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/forms/viewGame.conf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/forms/viewGame.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/forms/viewGame.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/game/CanvasRenderer.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/game/CanvasRenderer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/game/HTTPConnector.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/game/HTTPConnector.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/game_data/game.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/game_data/game.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/modules/MainModule.module" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/modules/MainModule.module" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -63,11 +80,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/app/game/CanvasRenderer.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="828">
-              <caret line="68" column="25" lean-forward="true" selection-start-line="68" selection-start-column="25" selection-end-line="68" selection-end-column="25" />
+            <state relative-caret-position="901">
+              <caret line="59" column="65" selection-start-line="59" selection-start-column="65" selection-end-line="59" selection-end-column="65" />
               <folding>
                 <element signature="e#111#139#0#PHP" expanded="true" />
               </folding>
@@ -75,11 +92,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/app/forms/viewGame.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="118" column="37" selection-start-line="118" selection-start-column="27" selection-end-line="118" selection-end-column="37" />
+            <state relative-caret-position="578">
+              <caret line="36" selection-start-line="36" selection-end-line="36" />
             </state>
           </provider>
         </entry>
@@ -96,8 +113,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/app/game/GameProcessing.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="13" column="17" lean-forward="true" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+            <state relative-caret-position="340">
+              <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -114,8 +131,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/app/game/HTTPConnector.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="794">
-              <caret line="55" column="1" lean-forward="true" selection-start-line="55" selection-start-column="1" selection-end-line="55" selection-end-column="1" />
+            <state relative-caret-position="816">
+              <caret line="55" column="1" selection-start-line="55" selection-start-column="1" selection-end-line="55" selection-end-column="1" />
               <folding>
                 <element signature="e#111#131#0#PHP" expanded="true" />
               </folding>
@@ -126,7 +143,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/app/game/database.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
+            <state relative-caret-position="510">
               <caret line="36" selection-start-line="36" selection-end-line="36" />
               <folding>
                 <element signature="e#111#139#0#PHP" expanded="true" />
@@ -139,7 +156,7 @@
         <entry file="file://$PROJECT_DIR$/src/app/game_data/db/units.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
-              <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+              <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -147,7 +164,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/app/game/ResurceManager.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="612">
+            <state relative-caret-position="918">
               <caret line="59" column="51" selection-start-line="59" selection-start-column="51" selection-end-line="59" selection-end-column="51" />
             </state>
           </provider>
@@ -156,8 +173,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/app/game/interfaces/Sector.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
-              <caret line="40" column="39" lean-forward="true" selection-start-line="40" selection-start-column="39" selection-end-line="40" selection-end-column="39" />
+            <state relative-caret-position="493">
+              <caret line="40" column="39" selection-start-line="40" selection-start-column="39" selection-end-line="40" selection-end-column="39" />
               <folding>
                 <element signature="e#122#150#0#PHP" expanded="true" />
               </folding>
@@ -199,9 +216,9 @@
         <option value="$PROJECT_DIR$/src/app/game/HTTPConnector.php" />
         <option value="$PROJECT_DIR$/../vk.js" />
         <option value="$PROJECT_DIR$/src/app/game/Entitys/Entity.php" />
-        <option value="$PROJECT_DIR$/src/app/forms/viewGame.php" />
         <option value="$PROJECT_DIR$/src/app/game/ResurceManager.php" />
         <option value="$PROJECT_DIR$/src/app/game/GameProcessing.php" />
+        <option value="$PROJECT_DIR$/src/app/forms/viewGame.php" />
         <option value="$PROJECT_DIR$/src/app/game/CanvasRenderer.php" />
       </list>
     </option>
@@ -231,7 +248,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -239,100 +255,17 @@
               <item name="FWG" type="b2602c69:ProjectViewProjectNode" />
               <item name="FWG" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="FWG" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FWG" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FWG" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FWG" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FWG" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FWG" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="forms" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FWG" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FWG" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="game" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FWG" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FWG" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="game" type="462c0819:PsiDirectoryNode" />
-              <item name="Entitys" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FWG" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FWG" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="game_data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FWG" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FWG" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="game_data" type="462c0819:PsiDirectoryNode" />
-              <item name="db" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FWG" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FWG" type="462c0819:PsiDirectoryNode" />
-              <item name="UI" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FWG" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FWG" type="462c0819:PsiDirectoryNode" />
-              <item name="UI" type="462c0819:PsiDirectoryNode" />
-              <item name="icons" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FWG" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FWG" type="462c0819:PsiDirectoryNode" />
-              <item name="UI" type="462c0819:PsiDirectoryNode" />
-              <item name="interface" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FWG" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FWG" type="462c0819:PsiDirectoryNode" />
-              <item name="UI" type="462c0819:PsiDirectoryNode" />
-              <item name="interface" type="462c0819:PsiDirectoryNode" />
-              <item name="panel" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FWG" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FWG" type="462c0819:PsiDirectoryNode" />
-              <item name="UI" type="462c0819:PsiDirectoryNode" />
-              <item name="map" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FWG" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FWG" type="462c0819:PsiDirectoryNode" />
-              <item name="UI" type="462c0819:PsiDirectoryNode" />
-              <item name="profile" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="database.console.LAST_STATE" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../DevelNextlibs" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="php.test.frameworks.configurable" />
@@ -362,7 +295,10 @@
       <workItem from="1559243778277" duration="1744000" />
       <workItem from="1559325480930" duration="2357000" />
       <workItem from="1559327906879" duration="1911000" />
-      <workItem from="1559329837555" duration="9887000" />
+      <workItem from="1559329837555" duration="12001000" />
+      <workItem from="1560202081712" duration="597000" />
+      <workItem from="1560331318307" duration="1206000" />
+      <workItem from="1560803238736" duration="21000" />
     </task>
     <task id="LOCAL-00001" summary="refactor">
       <created>1559386512590</created>
@@ -371,17 +307,23 @@
       <option name="project" value="LOCAL" />
       <updated>1559386512591</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="refactor">
+      <created>1559473631319</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1559473631319</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15899000" />
+    <option name="totallyTimeSpent" value="19837000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19054441" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17191978" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -457,28 +399,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../DevelNext libs — копия/gui/event/UXContextMenuEvent.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="40" lean-forward="true" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../DevelNext libs — копия/gui/event/UXKeyboardManager.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../DevelNext libs — копия/gui/UXLabel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="31" lean-forward="true" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../DevelNext libs/io/Stream.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2040" />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../DevelNext libs — копия/gui/event/UXContextMenuEvent.php" />
+    <entry file="file://$PROJECT_DIR$/../DevelNext libs — копия/gui/event/UXKeyboardManager.php" />
+    <entry file="file://$PROJECT_DIR$/../DevelNext libs — копия/gui/UXLabel.php" />
+    <entry file="file://$PROJECT_DIR$/../DevelNext libs/io/Stream.php" />
     <entry file="file://$PROJECT_DIR$/UI/profile/0.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -542,61 +466,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../vk.js">
+    <entry file="file://$PROJECT_DIR$/../vk.js" />
+    <entry file="file://$PROJECT_DIR$/src/app/game/CanvasRenderer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/game/interfaces/Sector.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="40" column="39" lean-forward="true" selection-start-line="40" selection-start-column="39" selection-end-line="40" selection-end-column="39" />
-          <folding>
-            <element signature="e#122#150#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/game_data/db/units.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/game/HTTPConnector.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="794">
-          <caret line="55" column="1" lean-forward="true" selection-start-line="55" selection-start-column="1" selection-end-line="55" selection-end-column="1" />
-          <folding>
-            <element signature="e#111#131#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/game/SoundFX.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="27" column="17" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/game/database.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        <state relative-caret-position="901">
+          <caret line="59" column="65" selection-start-line="59" selection-start-column="65" selection-end-line="59" selection-end-column="65" />
           <folding>
             <element signature="e#111#139#0#PHP" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/game/ResurceManager.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="59" column="51" selection-start-line="59" selection-start-column="51" selection-end-line="59" selection-end-column="51" />
         </state>
       </provider>
     </entry>
@@ -607,27 +484,68 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/forms/viewGame.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="118" column="37" selection-start-line="118" selection-start-column="27" selection-end-line="118" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/app/game/GameProcessing.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="13" column="17" lean-forward="true" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+        <state relative-caret-position="340">
+          <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/game/CanvasRenderer.php">
+    <entry file="file://$PROJECT_DIR$/src/app/game/SoundFX.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="828">
-          <caret line="68" column="25" lean-forward="true" selection-start-line="68" selection-start-column="25" selection-end-line="68" selection-end-column="25" />
+        <state relative-caret-position="374">
+          <caret line="27" column="17" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/game/HTTPConnector.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="816">
+          <caret line="55" column="1" selection-start-line="55" selection-start-column="1" selection-end-line="55" selection-end-column="1" />
+          <folding>
+            <element signature="e#111#131#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/game/database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
           <folding>
             <element signature="e#111#139#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/game_data/db/units.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/game/ResurceManager.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="918">
+          <caret line="59" column="51" selection-start-line="59" selection-start-column="51" selection-end-line="59" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/game/interfaces/Sector.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="40" column="39" selection-start-line="40" selection-start-column="39" selection-end-line="40" selection-end-column="39" />
+          <folding>
+            <element signature="e#122#150#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/forms/viewGame.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
         </state>
       </provider>
     </entry>

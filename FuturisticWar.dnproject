@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<project author="ElGen" authorOS="Windows 10" createdAt="1557165366124" ideName="DevelNext" ideVersion="16.7.0" ideVersionHash="2017103112" name="FuturisticWar" packageName="app" template="ide\project\templates\DefaultGuiProjectTemplate" updatedAt="1559234219279">
+<project author="ElGen" authorOS="Windows 10" createdAt="1557165366124" ideName="DevelNext" ideVersion="16.7.0" ideVersionHash="2017103112" name="FuturisticWar" packageName="app" template="ide\project\templates\DefaultGuiProjectTemplate" updatedAt="1559683528915">
   <tree>
     <expanded>
     <path src=""/>
@@ -7,14 +7,16 @@
       <path src="/src/.theme"/>
       <path src="/src/.theme/UI"/>
       <path src="/src/app"/>
+      <path src="/src/app/game"/>
       <path src="/src/app/game_data"/>
+      <path src="/src/app/game_data/db"/>
       <path src="/vendor"/>
     </expanded>
   </tree>
   <openedFiles>
-  <file src="FuturisticWar.dnproject"/>
+  <file selected="1" src="FuturisticWar.dnproject"/>
     <file src="src/app/modules/MainModule.php"/>
-    <file selected="1" src="src/app/forms/MainForm.php"/>
+    <file src="src/app/forms/MainForm.php"/>
     <file src="src/app/game_data/httpConnector.php"/>
     <file src="src/app/forms/profile.php"/>
     <file src="src/app/forms/viewGame.php"/>
@@ -27,6 +29,7 @@
     <file src="src/app/game_data/db/structures.php"/>
     <file src="src/app/game_data/db/units.php"/>
     <file src="src/.theme/style.fx.css"/>
+    <file src="src/app/game/CanvasRenderer.php"/>
   </openedFiles>
   <files/>
   <behaviours>
